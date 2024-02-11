@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "7f935ac6-0e72-4d4a-86d4-b6c61a6570d1",
+		"name": "Teste_nivelamento",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "9366048"
+	},
+	"item": [
+		{
+			"name": "Todos os dados",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar pelo CNPJ",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "busca pelo ANS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:5000/registroans/326305"
+			},
+			"response": []
+		},
+		{
+			"name": "Nome fantasia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:5000/nomefantasia/AMIL"
+			},
+			"response": []
+		}
+	]
+}
